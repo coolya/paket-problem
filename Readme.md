@@ -6,7 +6,7 @@ Easiest way to reproduce the problem is in a docker container to ensure that the
 
 To reproduce run something like this:
 
-````
+```
 docker run --rm -i -t -v $(pwd):/code  microsoft/dotnet
 
 apt-get update &&  apt-get install -y apt-transport-https \
@@ -42,6 +42,6 @@ runtime.linux-x64.Microsoft.NETCore.App
 runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy
 runtime.linux-x64.Microsoft.NETCore.DotNetHostResolver
 runtime.linux-x64.Microsoft.NETCore.DotNetAppHost
-````
+```
 
 fixes the problem.
