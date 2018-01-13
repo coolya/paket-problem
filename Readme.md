@@ -35,7 +35,7 @@ runtime.linux-arm.Microsoft.NETCore.DotNetHostResolver
 runtime.linux-arm.Microsoft.NETCore.DotNetAppHost
 ```
 
-and linux
+and x64
 
 ```
 runtime.linux-x64.Microsoft.NETCore.App
